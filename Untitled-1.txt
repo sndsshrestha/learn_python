@@ -33,3 +33,25 @@ for i in range(0, len(a) - len(b)+1):
         cnt += 1
 
 print (cnt)
+
+##end
+
+#Q. Write a class in which its one method accepts a string from console and another method to print the characters that have even indexes
+
+##Answer
+
+import re
+
+string = "H1e2l3l4o5w6o7r8l9d"
+string = re.sub('[^a-zA-Z]', '', string)
+print (string)
+
+
+#Q. Write a Python program to replace last value of tuples in a list
+
+##Answer
+
+n = [(10, 20, 40), (40, 50, 60), (70, 80, 90)]
+print([t[:-1] + (100,) for t in n])
+
+##end 
