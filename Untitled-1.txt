@@ -1,0 +1,8 @@
+#SOLUTIONS
+## Q. You are given a string and your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa.
+
+input: 'This is mE 123'
+
+output: 'tHIS IS Me 123'
+
+Answer
