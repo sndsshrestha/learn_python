@@ -5,4 +5,31 @@ input: 'This is mE 123'
 
 output: 'tHIS IS Me 123'
 
-Answer
+##Answer Converting string
+
+string = "This is mE 123"
+print (string.swapcases())
+
+##end of Answer
+
+
+# Q. The user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left.
+
+Input: 
+ABCDCDC
+CDC
+
+Output:
+2
+
+##Answer Number of times substring
+
+a = "ABCDCDC"
+b = "CDC"
+
+cnt = 0
+for i in range(0, len(a) - len(b)+1):
+    if a[i:i+len(b)] == b:
+        cnt += 1
+
+print (cnt)
