@@ -15,8 +15,8 @@ output: 'tHIS IS Me 123'
 
 #Solution
 
-a = "This is mE 123"
-print (a.swapcase())
+    a = "This is mE 123"
+    print (a.swapcase())
 
 #end
 
